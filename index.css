@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: chirp;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.bg {
+    /* background-color: #8f9497; */
+    height: 90vh;
+}
+
+.bg-blue {
+    flex-basis: 45%;
+    border-left: 0.1rem solid #E1E8ED;
+    border-right: 0.1rem solid #E1E8ED;
+    overflow: auto;
+}
+
+.run{
+    display: flex;
+    justify-content: center;
+    margin-left: 42rem;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    position: fixed;
+    top: 0rem;
+}
+
+.bg-green {
+    flex-basis: 30%;
+    padding: 0.5rem 2rem 0 1rem;
+}
+
+.blue {
+    color: #1DA1F2;
+
+}
+
+.fs-17 {
+    font-size: 3rem
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.bg-red {
+    flex-basis: 25%;
+    justify-content: center;
+}
+
+.enlaces {
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.link {
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+    column-gap: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.link:hover {
+    background: #E1E8ED;
+    padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+    cursor: pointer;
+    border-radius: 2rem
+}
+
+
+
+.register {
+    width: 100%;
+    height: 45%;
+    border: 0.08rem solid #E1E8ED;
+    border-radius: 0.4rem;
+    gap: 0.5rem;
+    padding: 0.4rem 0.8rem 0.4rem 0.4rem;
+}
+
+.fs-1r {
+    font-size: 1.5rem;
+}
+
+.fs-7 {
+    margin-left: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.btn {
+    border-radius: 10rem;
+    background-color: #F5F8FA;
+    font-size: 1rem;
+    padding: 1.1rem;
+    border: 0.1rem solid #E1E8ED;
+}
+
+.gray {
+    color: gray
+}
+
+.red {
+    color: red
+}
+
+.pd-1 {
+    padding-right: 1.5rem;
+}
+
+.privacylinks {
+    text-decoration: none;
+}
+
+.alineacion {
+    gap: 0.5rem 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+.barramenor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10vh;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    background-color: #1DA1F2;
+    position:fixed;
+    bottom: 0%;
+}
+
+.woo {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin-left: 26rem;
+}
+
+.titulo1 {
+    color: white;
+    font-size: 2.1rem;
+}
+
+.titulo2 {
+    color: white;
+    font-size: 1.3rem;
+
+}
+
+.btn_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 8%;
+    height: 4vh;
+    color: white;
+    border-radius: 5rem;
+    background-color: #1DA1F2;
+    font-size: 1rem;
+    margin-left: 23rem;
+    border: 0.1rem solid gainsboro;
+}
+
+.btn_four {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 8%;
+    height: 4vh;
+    border-radius: 5rem;
+    background-color: #F5F8FA;
+    font-size: 1rem;
+    margin-right: 5rem;
+    border: 0.1rem solid #F5F8FA;
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+#twitter {
+    width: 38%;
+    height: 2vh;
+    padding: 1.5rem 4rem;
+    border-radius: 5rem;
+    border: 0.1rem #E1E8ED;
+    background-color: #E1E8ED;
+    background-image: url(./buscar.png);
+    background-repeat: no-repeat;
+    background-position: 3%;
+    background-size: 1.2rem;
+    font-size: 1rem;
+    position: fixed;
+    top: 1%;
+}
+
+.abajo{
+    padding-top: 5rem;
+}
+
+.three{
+    padding-top: 1rem;
+}
+h3 {
+    padding-top: 1.3rem;
+    padding-left: 0.8rem;
+    font-size: 1.5rem;
+}
+
+.dashi {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding-top: 5rem;
+}
+
+h4 {
+    padding-left: 0.8rem;
+    font-size: 1rem;
+    color: #14171A;
+}
+
+.laps {
+    padding-left: 45rem;
+    font-size: 1rem;
+}
+
+.link2:hover {
+    background: #e8e8e8;
+    padding: 0.2rem 0.4rem 0.2rem 0.2rem;
+    cursor: pointer;
+}
+.link3{
+    font-size: 1.5rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.2rem;
+    column-gap: 1.5rem;
+    font-size: 1.5rem;
+}
+.menu{
+    border-bottom: 0.1rem solid  #e8e8e8;
+    padding-bottom: 1rem;
+}
+h5{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+.perfil1{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.perfil2{
+    width: 7.8%;
+    border-radius: 100%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.fs-9{
+    font-size: 1.5rem;
+    padding: 1rem 2rem 1rem 1rem;
+    column-gap: 1.5rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.fs-10{
+    color: #000000;
+    text-decoration: none;
+}
+.conteiner2{
+    width: 30rem;
+    padding-top: 1.5rem; ;
+    margin-left: 8rem;
+}
+.texto{
+    padding-top: 2rem;
+    margin-left: 2.5rem;
+}
+.espacio{
+    padding-top: 1.2rem;
+    margin-left: 2.5rem;
+}
+.es-or{
+    margin-left: 9rem;
+}
+.top{
+    padding-top: 2rem;
+}
